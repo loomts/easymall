@@ -15,15 +15,12 @@ public class UserService {
 	private UserMapper userMapper;
 	public User queryUser(String userId) {
 		return userMapper.queryUser(userId);
-		
 	}
 	public void updatePoint(String userId, Integer moneyAndPoint) {
 		Map<String,Object> map = new HashMap<>();
 		map.put("userId", userId);
 		map.put("money", moneyAndPoint);
 		userMapper.updateUserPoint(map);
-
-		
 	}
 
 }

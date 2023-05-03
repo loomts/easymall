@@ -15,7 +15,6 @@ private UserService userService;
 	@RequestMapping("user/query/point")
 	public User queryUser(String userId){
 		return userService.queryUser(userId);
-		 
 	}
 	@RequestMapping("user/updatePoint")
 	public Integer updatePoint(@RequestParam(value="orderMoney")Integer moneyAndPoint,String userId){

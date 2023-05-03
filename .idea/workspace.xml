@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2371f7dc-b7f5-4dfd-87d4-6e52bd5b202c" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client01/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client02/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client03/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server01/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/cn/edu/scnu/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/cn/edu/scnu/StartGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-order-n/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-order-n/src/test/java/cn/edu/scnu/TestRestTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-user-n/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/easymall.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client01/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client01/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client01/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client01/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client01/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client01/src/main/java/cn/edu/scnu/StarterEurekaClient01.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client01/src/main/java/cn/edu/scnu/StarterEurekaClient01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client01/src/main/java/cn/edu/scnu/controller/HelloCotroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client01/src/main/java/cn/edu/scnu/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client01/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client01/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client01/target/classes/META-INF/maven/cn.edu.scnu/eureka-client01/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client01/target/classes/META-INF/maven/cn.edu.scnu/eureka-client01/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client01/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client01/target/classes/cn/edu/scnu/StarterEurekaClient01.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client01/target/classes/cn/edu/scnu/StarterEurekaClient01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client01/target/classes/cn/edu/scnu/controller/HelloCotroller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client02/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client02/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client02/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client02/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client02/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client02/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client02/src/main/java/cn/edu/scnu/StarterEurekaClient02.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client02/src/main/java/cn/edu/scnu/StarterEurekaClient02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client02/src/main/java/cn/edu/scnu/controller/HelloCotroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client02/src/main/java/cn/edu/scnu/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client02/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client02/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client02/target/classes/META-INF/maven/cn.edu.scnu/eureka-client01/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client02/target/classes/META-INF/maven/cn.edu.scnu/eureka-client01/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client02/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client02/target/classes/cn/edu/scnu/StarterEurekaClient02.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client02/target/classes/cn/edu/scnu/StarterEurekaClient02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client02/target/classes/cn/edu/scnu/controller/HelloCotroller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client03/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client03/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client03/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client03/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client03/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client03/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client03/src/main/java/cn/edu/scnu/controller/HelloCotroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client03/src/main/java/cn/edu/scnu/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client03/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client03/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client03/target/classes/META-INF/maven/cn.edu.scnu/eureka-client01/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client03/target/classes/META-INF/maven/cn.edu.scnu/eureka-client01/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client03/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client03/target/classes/cn/edu/scnu/StarterEurekaClient03.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client03/target/classes/cn/edu/scnu/StarterEurekaClient03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client03/target/classes/cn/edu/scnu/controller/HelloCotroller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/cn/edu/scnu/StarterEurekaServer01.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server01/src/main/java/cn/edu/scnu/StarterEurekaServer01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/mian/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/META-INF/maven/cn.edu.scnu/eureka-server/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/META-INF/maven/cn.edu.scnu/eureka-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/cn/edu/scnu/StarterEurekaServer01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/eureka-server-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/eureka-server-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server2/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server2/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server2/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server2/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server2/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server2/src/main/java/cn/edu/scnu/StarterEurekaServer02.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server02/src/main/java/cn/edu/scnu/StarterEurekaServer02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server2/src/mian/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server2/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server2/target/classes/META-INF/maven/cn.edu.scnu/eureka-server/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server2/target/classes/META-INF/maven/cn.edu.scnu/eureka-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server2/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server2/target/classes/cn/edu/scnu/StarterEurekaServer02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server2/target/eureka-server-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server2/target/eureka-server-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server2/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-client/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-client/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-client/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-client/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-client/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-client/src/main/java/cn/edu/scnu/StarterRibbonClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/src/main/java/cn/edu/scnu/StarterRibbon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-client/src/main/java/cn/edu/scnu/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/src/main/java/cn/edu/scnu/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-client/src/main/resouces/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-client/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-client/target/classes/META-INF/maven/cn.edu.scnu/ribbon-client/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-client/target/classes/META-INF/maven/cn.edu.scnu/ribbon-client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-client/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-client/target/classes/cn/edu/scnu/StarterRibbonClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-client/target/classes/cn/edu/scnu/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-order-n/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-order-n/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-order-n/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-order-n/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-order-n/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-order-n/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-order-n/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-order-n/src/main/java/cn/edu/scnu/StarterOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-order-n/src/main/java/cn/edu/scnu/StarterOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-order-n/src/main/java/cn/edu/scnu/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-order-n/src/main/java/cn/edu/scnu/mapper/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-order-n/src/main/java/cn/edu/scnu/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-order-n/src/main/java/cn/edu/scnu/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-order-n/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-order-n/src/test/java/cn/edu/scnu/test/TestRestTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-order-n/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-order-n/target/classes/META-INF/maven/cn.edu.scnu/springboot-order-n/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-order-n/target/classes/META-INF/maven/cn.edu.scnu/springboot-order-n/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-order-n/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-order-n/target/classes/cn/edu/scnu/StarterOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-order-n/target/classes/cn/edu/scnu/StarterOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-order-n/target/classes/cn/edu/scnu/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-order-n/target/classes/cn/edu/scnu/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-order-n/target/classes/cn/edu/scnu/entity/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-order-n/target/classes/cn/edu/scnu/entity/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-order-n/target/classes/cn/edu/scnu/mapper/OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-order-n/target/classes/cn/edu/scnu/mapper/OrderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-order-n/target/classes/cn/edu/scnu/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-order-n/target/classes/cn/edu/scnu/service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-order-n/target/test-classes/cn/edu/scnu/test/TestRestTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-user-n/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-user-n/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-user-n/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-user-n/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-user-n/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-user-n/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-user-n/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-user-n/src/main/java/cn/edu/scnu/StarterUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-user-n/src/main/java/cn/edu/scnu/StarterUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-user-n/src/main/java/cn/edu/scnu/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-user-n/src/main/java/cn/edu/scnu/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-user-n/src/main/java/cn/edu/scnu/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-user-n/src/main/java/cn/edu/scnu/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-user-n/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-user-n/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-user-n/target/classes/META-INF/maven/cn.edu.scnu/springboot-user-n/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-user-n/target/classes/META-INF/maven/cn.edu.scnu/springboot-user-n/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-user-n/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-user-n/target/classes/cn/edu/scnu/StarterUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-user-n/target/classes/cn/edu/scnu/StarterUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-user-n/target/classes/cn/edu/scnu/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-user-n/target/classes/cn/edu/scnu/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-user-n/target/classes/cn/edu/scnu/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-user-n/target/classes/cn/edu/scnu/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-user-n/target/classes/cn/edu/scnu/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-user-n/target/classes/cn/edu/scnu/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-user-n/target/classes/cn/edu/scnu/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-user-n/target/classes/cn/edu/scnu/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-client/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-client/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-client/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-client/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-client/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-client/src/main/java/cn/edu/scnu/StarterZuul.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-client/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-client/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-client/target/classes/META-INF/maven/cn.edu.scnu/zuul-client/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-client/target/classes/META-INF/maven/cn.edu.scnu/zuul-client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-client/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-client/target/classes/cn/edu/scnu/StarterZuul.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-client/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server02/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-client/target/zuul-client-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-client/target/zuul-client-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2PB8jZJMwgsKH2fMtuQBUwnLnJW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "E:/homework/easymall/ribbon",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.11034483",
+    "project.structure.side.proportion": "0.19516908",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "spring.configuration.checksum": "c5616959a1093627897e1de82683ef19",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\homework\easymall\springboot-order-n\src" />
+      <recent name="E:\homework\easymall\eureka-server2\src" />
+      <recent name="E:\homework\easymall\eureka-server\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.StarterOrder">
+    <configuration name="TestRestTemplate.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-order-n" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.scnu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.edu.scnu" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu.scnu.TestRestTemplate" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartGateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.scnu.StartGateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.scnu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StarterOrder" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-order-n" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.scnu.StarterOrder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.scnu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StarterRibbon" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.scnu.StarterRibbon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.scnu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StarterUser" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-user-n" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.scnu.StarterUser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.scnu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestRestTemplate.test01" />
+      <item itemvalue="Spring Boot.StartGateway" />
+      <item itemvalue="Spring Boot.StarterUser" />
+      <item itemvalue="Spring Boot.StarterOrder" />
+      <item itemvalue="Spring Boot.StarterRibbon" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.StarterOrder" />
+        <item itemvalue="Spring Boot.StarterUser" />
+        <item itemvalue="JUnit.TestRestTemplate.test01" />
+        <item itemvalue="Spring Boot.StartGateway" />
+        <item itemvalue="Spring Boot.StarterRibbon" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2371f7dc-b7f5-4dfd-87d4-6e52bd5b202c" name="Changes" comment="" />
+      <created>1682919250629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682919250629</updated>
+      <workItem from="1682919253374" duration="1976000" />
+      <workItem from="1682922715507" duration="61000" />
+      <workItem from="1682922821074" duration="567000" />
+      <workItem from="1682923409038" duration="697000" />
+      <workItem from="1682924120488" duration="426000" />
+      <workItem from="1682924585517" duration="2449000" />
+      <workItem from="1682939804458" duration="292000" />
+      <workItem from="1682940255060" duration="1463000" />
+      <workItem from="1682942810540" duration="778000" />
+      <workItem from="1682943656262" duration="2179000" />
+      <workItem from="1682946035875" duration="7274000" />
+      <workItem from="1682959752729" duration="2959000" />
+      <workItem from="1682984769323" duration="2029000" />
+      <workItem from="1682986811036" duration="2041000" />
+      <workItem from="1682988858258" duration="9492000" />
+      <workItem from="1683014952870" duration="725000" />
+      <workItem from="1683015690765" duration="362000" />
+      <workItem from="1683016061944" duration="81000" />
+      <workItem from="1683016161582" duration="5730000" />
+      <workItem from="1683083096456" duration="14665000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

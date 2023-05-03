@@ -8,15 +8,15 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+
 @SpringBootApplication
 @EnableEurekaClient
+
 @MapperScan("cn.edu.scnu.mapper")
 public class StarterOrder {
-
 	public static void main(String[] args) {
 		SpringApplication.run(StarterOrder.class, args);
 	}
-	
 	@Bean
 	@LoadBalanced
 	public RestTemplate intiRestTemplate(){
