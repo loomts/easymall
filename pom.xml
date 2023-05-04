@@ -15,10 +15,13 @@
         <module>eureka-client03</module>
         <module>eureka-server01</module>
         <module>eureka-server02</module>
-        <module>gateway</module>
+        <module>easymall-gateway</module>
         <module>ribbon</module>
         <module>springboot-order-n</module>
         <module>springboot-user-n</module>
+        <module>easymall-common-repository</module>
+        <module>easymall-common-resources</module>
+        <module>easymall-microservice-product</module>
     </modules>
 
     <parent>
@@ -81,6 +84,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
+        </dependency>
+        <!-- configuration-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 </project>

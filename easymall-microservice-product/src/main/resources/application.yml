@@ -1,0 +1,25 @@
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8761/eureka/
+mybatis:
+    configuration:
+        cacheEnabled: false
+        mapUnderscoreToCamelCase: true
+    mapperLocations: classpath:mapper/*.xml
+    typeAliasesPackage: com.easymall.pojo
+server:
+    port: 10001
+spring:
+    application:
+        name: product-service
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        initialSize: 5
+        maxActive: 50
+        maxIdle: 10
+        minIdle: 5
+        password: 123456
+        type: com.alibaba.druid.pool.DruidDataSource
+        url: jdbc:mysql:///easydb?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
+        username: loomt

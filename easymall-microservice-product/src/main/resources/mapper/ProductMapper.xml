@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.scnu.mapper.ProductMapper">
+    <select id="queryTotal" resultType="int">
+        select count(product_id) from t_product;
+    </select>
+    <select id="queryByPage" resultType="Product">
+        select * from t_product limit #{start},#{rows};
+    </select>
+    <select id="queryById" parameterType="String" resultType="Product">
+        select * from t_product where product_id=#{prodId};
+    </select>
+</mapper>
