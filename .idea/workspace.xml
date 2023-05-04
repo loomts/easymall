@@ -5,60 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2371f7dc-b7f5-4dfd-87d4-6e52bd5b202c" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/easymall-common-repository/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-repository/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-repository/src/main/java/cn/edu/scnu/config/DataSourceInitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-repository/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-resources/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-resources/src/main/java/com/easymall/pojo/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-resources/src/main/java/com/easymall/pojo/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-resources/src/main/java/com/easymall/pojo/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-resources/src/main/java/com/easymall/pojo/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-resources/src/main/java/com/easymall/pojo/Seckill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-resources/src/main/java/com/easymall/pojo/Success.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-resources/src/main/java/com/easymall/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-resources/src/main/java/com/easymall/utils/CookieUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-resources/src/main/java/com/easymall/utils/ListTransUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-resources/src/main/java/com/easymall/utils/MD5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-resources/src/main/java/com/easymall/utils/MapperUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-resources/src/main/java/com/easymall/utils/PrefixKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-resources/src/main/java/com/easymall/utils/RabbitmqUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-resources/src/main/java/com/easymall/utils/UUIDUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-resources/src/main/java/com/easymall/utils/UploadUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-resources/src/main/java/com/easymall/vo/EasyUIResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-resources/src/main/java/com/easymall/vo/HttpResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-resources/src/main/java/com/easymall/vo/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-resources/src/main/java/com/easymall/vo/PicUploadResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-common-resources/src/main/java/com/easymall/vo/SysResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-gateway/src/main/java/cn/edu/scnu/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-gateway/src/main/java/cn/edu/scnu/StartGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-product/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-product/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/StarterProductCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/mapper/ProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/service/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easymall-microservice-pic/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easymall-microservice-pic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easymall-microservice-pic/src/main/java/cn/edu/scnu/StarterPicCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easymall-microservice-pic/src/main/java/cn/edu/scnu/controller/PicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easymall-microservice-pic/src/main/java/cn/edu/scnu/service/PicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easymall-microservice-pic/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cff80adf-5dea-42f0-8d92-69e102d0e343.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cff80adf-5dea-42f0-8d92-69e102d0e343.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/cn/edu/scnu/Filter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/cn/edu/scnu/StartGateway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/target/classes/cn/edu/scnu/Filter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/target/classes/cn/edu/scnu/StartGateway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easymall-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/mapper/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/mapper/ProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/src/main/resources/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-order-n/target/classes/cn/edu/scnu/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-order-n/target/classes/cn/edu/scnu/service/OrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-user-n/target/classes/cn/edu/scnu/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-user-n/target/classes/cn/edu/scnu/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-user-n/target/classes/cn/edu/scnu/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-user-n/target/classes/cn/edu/scnu/service/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,47 +62,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelOrder2": "2",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RequestMappingsPanelWidth2": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "E:/homework/easymall/easymall-microservice-product/src/main/java/cn/edu/scnu",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.11034483",
-    "project.structure.side.proportion": "0.19516908",
-    "settings.editor.selected.configurable": "reactor",
-    "spring.configuration.checksum": "82881881f02ceeba6c11908e04aa3ab2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/homework/easymall/easymall-microservice-pic/src/main/java/cn/edu/scnu&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.11034483&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.19516908&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reactor&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;82881881f02ceeba6c11908e04aa3ab2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\homework\easymall\easymall-microservice-pic\src\main\java\cn\edu\scnu" />
       <recent name="E:\homework\easymall\easymall-microservice-product\src\main\java\cn\edu\scnu" />
       <recent name="E:\homework\easymall\easymall-common-resources\src\main\java" />
     </key>
@@ -155,7 +120,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.StarterProductCenter">
+  <component name="RunManager" selected="Spring Boot.StarterPicCenter">
     <configuration name="StartGateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="easymall-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.scnu.StartGateway" />
@@ -247,6 +212,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StarterPicCenter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="easymall-microservice-pic" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.scnu.StarterPicCenter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.scnu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StarterProductCenter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="easymall-microservice-product" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.scnu.StarterProductCenter" />
@@ -273,38 +251,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StarterUser" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot-user-n" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.scnu.StarterUser" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.edu.scnu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Spring Boot.StarterEurekaClient01" />
       <item itemvalue="Spring Boot.StarterEurekaClient02" />
       <item itemvalue="Spring Boot.StarterEurekaClient03" />
       <item itemvalue="Spring Boot.StarterEurekaServer01" />
       <item itemvalue="Spring Boot.StarterEurekaServer02" />
+      <item itemvalue="Spring Boot.StarterPicCenter" />
       <item itemvalue="Spring Boot.StarterProductCenter" />
       <item itemvalue="Spring Boot.StartGateway" />
-      <item itemvalue="Spring Boot.StarterUser" />
       <item itemvalue="Spring Boot.StarterOrder" />
       <item itemvalue="Spring Boot.StarterRibbon" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.StarterProductCenter" />
+        <item itemvalue="Spring Boot.StarterPicCenter" />
         <item itemvalue="Spring Boot.StartGateway" />
+        <item itemvalue="Spring Boot.StarterProductCenter" />
         <item itemvalue="Spring Boot.StarterRibbon" />
         <item itemvalue="Spring Boot.StarterOrder" />
-        <item itemvalue="Spring Boot.StarterUser" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +305,8 @@
       <workItem from="1683016161582" duration="5730000" />
       <workItem from="1683083096456" duration="14665000" />
       <workItem from="1683115851278" duration="20583000" />
-      <workItem from="1683172132437" duration="3722000" />
+      <workItem from="1683172132437" duration="7523000" />
+      <workItem from="1683182907262" duration="2133000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,15 @@
+server:
+  port: 10002
+spring:
+  application:
+    name: pic-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone:
+        - http://localhost:8761/eureka
+
+pic:
+    pathDirPrefix: D://0/nginx-1.9.9/easymall-image
+    urlPrefix: http://image.easymall.com

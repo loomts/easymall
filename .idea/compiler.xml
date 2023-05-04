@@ -7,18 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ribbon" />
         <module name="easymall-microservice-product" />
         <module name="eureka-client01" />
         <module name="eureka-client02" />
         <module name="springboot-user-n" />
         <module name="eureka-client03" />
-        <module name="ribbon" />
         <module name="springboot-order-n" />
         <module name="easymall-common-resources" />
         <module name="easymall-gateway" />
         <module name="eureka-server01" />
         <module name="eureka-server02" />
         <module name="easymall-common-repository" />
+        <module name="easymall-microservice-pic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />
@@ -29,6 +30,7 @@
       <module name="easymall-common-repository" options="-parameters" />
       <module name="easymall-common-resources" options="-parameters" />
       <module name="easymall-gateway" options="-parameters" />
+      <module name="easymall-microservice-pic" options="-parameters" />
       <module name="easymall-microservice-product" options="-parameters" />
       <module name="eureka-client01" options="-parameters" />
       <module name="eureka-client02" options="-parameters" />

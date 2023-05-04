@@ -14,11 +14,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.UUID;
 
 @Service
 public class ProductServiceImpl implements ProductService {
     @Autowired
     ProductMapper productMapper;
+
     public EasyUIResult productPageQuery(Integer page, Integer rows) {
         EasyUIResult result = new EasyUIResult();
         Integer total = productMapper.queryTotal();
@@ -34,5 +36,15 @@ public class ProductServiceImpl implements ProductService {
         return productMapper.queryById(prodId);
     }
 
+    @Override
+    public void productSave(Product product) {
+        product.setProductId(UUID.randomUUID().toString());
+        productMapper.productSave(product);
+    }
+
+    @Override
+    public void productUpdate(Product product) {
+
+    }
 }
 

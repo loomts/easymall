@@ -18,4 +18,6 @@ public interface ProductMapper{
     Integer queryTotal();
     List<Product> queryByPage(@Param("start")Integer start,@Param("rows")Integer rows);
     Product queryById(String prodId);
+    void productSave(Product product);
+    void productUpdate(Product product);
 }

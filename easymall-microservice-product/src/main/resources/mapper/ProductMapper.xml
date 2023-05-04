@@ -11,4 +11,20 @@
     <select id="queryById" parameterType="String" resultType="Product">
         select * from t_product where product_id=#{prodId};
     </select>
+    <insert id="productSave" parameterType="Product">
+        insert into t_product(product_id, product_name,product_category,
+                              product_num,product_imgurl,product_price,product_description)
+        values (#{productId},#{productName},#{productCategory},#{productNum},
+                #{productImgurl},#{productPrice},#{productDescription});
+    </insert>
+    <update id="productUpdate" parameterType="Product">
+        update t_product set
+                             product_name = #{productName},
+                             product_category = #{productCategory},
+                             product_num = #{productNum},
+                             product_imgurl = #{productImgurl},
+                             product_price = #{productPrice},
+                             product_description = #{productDescription}
+        where product_id = #{productId};
+    </update>
 </mapper>
