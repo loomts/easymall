@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2371f7dc-b7f5-4dfd-87d4-6e52bd5b202c" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-pic/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-pic/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-pic/src/main/java/cn/edu/scnu/StarterPicCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-pic/src/main/java/cn/edu/scnu/controller/PicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-pic/src/main/java/cn/edu/scnu/service/PicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-pic/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/mapper/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/mapper/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/service/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/src/main/resources/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2371f7dc-b7f5-4dfd-87d4-6e52bd5b202c" name="Changes" comment="init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -306,7 +287,7 @@
       <workItem from="1683083096456" duration="14665000" />
       <workItem from="1683115851278" duration="20583000" />
       <workItem from="1683172132437" duration="7523000" />
-      <workItem from="1683182907262" duration="2133000" />
+      <workItem from="1683182907262" duration="3751000" />
     </task>
     <servers />
   </component>
