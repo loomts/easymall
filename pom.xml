@@ -23,6 +23,7 @@
         <module>easymall-common-resources</module>
         <module>easymall-microservice-product</module>
         <module>easymall-microservice-pic</module>
+        <module>easymall-microservice-user</module>
     </modules>
 
     <parent>

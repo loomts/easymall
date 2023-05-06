@@ -12,7 +12,7 @@ services:
       MYSQL_PASSWORD: 123456 
     volumes:
       - /var/lib/mysql:/var/lib/mysql
-
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
   redis:
     container_name: redis
     image: redis:latest
