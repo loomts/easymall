@@ -11,9 +11,29 @@ services:
     volumes:
       - /var/lib/mysql:/var/lib/mysql
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
-  redis:
-    container_name: redis
+  redis01:
+    container_name: redis01
     image: redis:latest
-    restart: always
+    command: redis-server /usr/local/etc/redis/redis01.conf --port 6379
+    volumes:
+      - ./redis01.conf:/usr/local/etc/redis/redis01.conf
     ports:
       - 6379:6379
+
+  redis02:
+    container_name: redis02
+    image: redis:latest
+    command: redis-server /usr/local/etc/redis/redis02.conf --port 6380
+    volumes:
+      - ./redis02.conf:/usr/local/etc/redis/redis02.conf
+    ports:
+      - 6380:6380
+
+  redis03:
+    container_name: redis03
+    image: redis:latest
+    command: redis-server /usr/local/etc/redis/redis03.conf --port 6381
+    volumes:
+      - ./redis03.conf:/usr/local/etc/redis/redis03.conf
+    ports:
+      - 6381:6381
