@@ -23,3 +23,13 @@ spring:
         type: com.alibaba.druid.pool.DruidDataSource
         url: jdbc:mysql://116.205.130.21:3306/easydb?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
         username: loomt
+    redis:
+        host: 116.205.130.21
+        port: 6379
+        database: 0
+        jedis:
+            pool:
+                max-active: 50
+                max-wait: 1ms
+                max-idle: 8
+                min-idle: 0

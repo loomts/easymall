@@ -10,16 +10,25 @@ package cn.edu.scnu.service;
 import cn.edu.scnu.mapper.ProductMapper;
 import com.easymall.pojo.Product;
 import com.easymall.vo.EasyUIResult;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.netflix.discovery.converters.Auto;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.UUID;
 
 @Service
+@Slf4j
 public class ProductServiceImpl implements ProductService {
     @Autowired
     ProductMapper productMapper;
+    @Autowired
+    StringRedisTemplate redis;
 
     public EasyUIResult productPageQuery(Integer page, Integer rows) {
         EasyUIResult result = new EasyUIResult();
@@ -32,8 +41,23 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public Product queryById(String prodId) {
-        return productMapper.queryById(prodId);
+    public String queryById(String prodId) {
+        String productInfo = redis.opsForValue().get(prodId);
+        if (!productInfo.isEmpty()) {
+            return productInfo;
+            log.info("get product"+prodId+" from");
+        } else {
+            Product product = productMapper.queryById(prodId);
+            ObjectMapper mapper = new ObjectMapper();
+            String productJson = "";
+            try {
+                productJson = mapper.writeValueAsString(product);
+            } catch (JsonProcessingException e) {
+                throw new RuntimeException(e);
+            }
+            return productJson;
+        }
+
     }
 
     @Override

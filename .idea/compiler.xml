@@ -11,9 +11,7 @@
         <module name="easymall-microservice-product" />
         <module name="eureka-client01" />
         <module name="eureka-client02" />
-        <module name="springboot-user-n" />
         <module name="eureka-client03" />
-        <module name="springboot-order-n" />
         <module name="easymall-common-resources" />
         <module name="easymall-gateway" />
         <module name="eureka-server01" />
@@ -23,7 +21,10 @@
         <module name="easymall-microservice-pic" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="11" />
+    <bytecodeTargetLevel target="11">
+      <module name="springboot-order-n" target="1.8" />
+      <module name="springboot-user-n" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

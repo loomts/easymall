@@ -18,22 +18,6 @@ spring:
           uri: lb://user-service
           predicates:
             - Path=/user-service/**
-#         - id: api-a
-#           uri: lb://service01
-#           predicates:
-#             - Path=/api-a/**
-#         - id: api-b
-#           uri: lb://service02
-#           predicates:
-#             - Path=/api-b/**
-#         - id: orders
-#           uri: lb://order-service
-#           predicates:
-#             - Path=/orders/**
-#         - id: users
-#           uri: lb://user-service
-#           predicates:
-#             - Path=/users/**
       discovery:
         locator:
           enabled: true

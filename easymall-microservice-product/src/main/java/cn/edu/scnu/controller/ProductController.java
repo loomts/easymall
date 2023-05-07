@@ -21,7 +21,7 @@ public class ProductController {
     }
 
     @RequestMapping("/item/{prodId}")
-    public Product queryById(@PathVariable String prodId) {
+    public String queryById(@PathVariable String prodId) {
         return productService.queryById(prodId);
     }
 
