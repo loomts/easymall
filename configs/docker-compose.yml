@@ -37,3 +37,28 @@ services:
       - ./redis03.conf:/usr/local/etc/redis/redis03.conf
     ports:
       - 6381:6381
+
+  redis6382:
+    container_name: redis6382
+    image: redis:latest
+    command: redis-server /usr/local/etc/redis/redis6382.conf --port 6382
+    volumes:
+      - ./redis6382.conf:/usr/local/etc/redis/redis6382.conf
+    ports:
+      - 6382:6382
+  redis6383:
+    container_name: redis6383
+    image: redis:latest
+    command: redis-server /usr/local/etc/redis/redis6383.conf --port 6383
+    volumes:
+      - ./redis6383.conf:/usr/local/etc/redis/redis6383.conf
+    ports:
+      - 6383:6383
+  redis6384:
+    container_name: redis6384
+    image: redis:latest
+    command: redis-server /usr/local/etc/redis/redis6384.conf --port 6384
+    volumes:
+      - ./redis6384.conf:/usr/local/etc/redis/redis6384.conf
+    ports:
+      - 6384:6384
