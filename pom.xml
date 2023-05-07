@@ -10,9 +10,6 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>eureka-client01</module>
-        <module>eureka-client02</module>
-        <module>eureka-client03</module>
         <module>eureka-server01</module>
         <module>eureka-server02</module>
         <module>easymall-gateway</module>

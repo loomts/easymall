@@ -8,6 +8,7 @@
 package cn.edu.scnu.service;
 
 import cn.edu.scnu.mapper.ProductMapper;
+import com.alibaba.fastjson2.JSON;
 import com.easymall.pojo.Product;
 import com.easymall.vo.EasyUIResult;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -43,21 +44,15 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public String queryById(String prodId) {
         String productInfo = redis.opsForValue().get(prodId);
-        if (!productInfo.isEmpty()) {
+        if (productInfo != null && !productInfo.isEmpty()) {
+            log.info("商品" + prodId + "击中缓存");
             return productInfo;
-            log.info("get product"+prodId+" from");
         } else {
             Product product = productMapper.queryById(prodId);
-            ObjectMapper mapper = new ObjectMapper();
-            String productJson = "";
-            try {
-                productJson = mapper.writeValueAsString(product);
-            } catch (JsonProcessingException e) {
-                throw new RuntimeException(e);
-            }
+            String productJson = JSON.toJSONString(product);
+            redis.opsForValue().set(prodId, productJson);
             return productJson;
         }
-
     }
 
     @Override

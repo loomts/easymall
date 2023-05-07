@@ -10,7 +10,6 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @EnableEurekaClient
-@MapperScan("cn.edu.scnu.mapper")
 public class StarterProductCenter {
     public static void main(String[] args) {
         SpringApplication.run(StarterProductCenter.class, args);

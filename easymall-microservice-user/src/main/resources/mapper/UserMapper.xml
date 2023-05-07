@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="cn.edu.scnu.user.mapper.UserMapper">
+<mapper namespace="cn.edu.scnu.mapper.UserMapper">
     <select id="checkUserName" parameterType="String" resultType="int">
         select count(user_name)
         from t_user
@@ -17,8 +17,4 @@
         where user_name = #{userName}
           and user_password = #{userPassword};
     </select>
-    <resultMap id="UserMap" type="com.easymall.pojo.User">
-        <result property="id" column="id"/>
-        <result property="name" column="name"/>
-    </resultMap>
 </mapper>
