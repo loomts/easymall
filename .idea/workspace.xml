@@ -5,49 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2371f7dc-b7f5-4dfd-87d4-6e52bd5b202c" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-user/src/main/java/cn/edu/scnu/redis/ShardJedisPoolConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b1f483a-24fb-4a06-88f9-dcb621321650.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4b1f483a-24fb-4a06-88f9-dcb621321650.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b17c55cc-d774-429c-8e98-24d4c0fa1a89.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b17c55cc-d774-429c-8e98-24d4c0fa1a89.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b30b3979-ad4f-46d5-9cd3-e9c569a8407d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b30b3979-ad4f-46d5-9cd3-e9c569a8407d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c0a54aed-cbf3-4f1f-b14e-3eceaab9105a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c0a54aed-cbf3-4f1f-b14e-3eceaab9105a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d107b14f-8fc8-407d-b204-390c376e5b10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d107b14f-8fc8-407d-b204-390c376e5b10.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/StarterProductCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/StarterProductCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/service/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-user/src/main/java/cn/edu/scnu/StartUserCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-user/src/main/java/cn/edu/scnu/StarterUserCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-user/src/main/java/cn/edu/scnu/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-user/src/main/java/cn/edu/scnu/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-user/src/main/java/cn/edu/scnu/user/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-user/src/main/java/cn/edu/scnu/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-user/src/main/java/cn/edu/scnu/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-user/src/main/java/cn/edu/scnu/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-user/src/main/java/cn/edu/scnu/user/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-user/src/main/java/cn/edu/scnu/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-user/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-user/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-user/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client01/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client01/src/main/java/cn/edu/scnu/StarterEurekaClient01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client01/src/main/java/cn/edu/scnu/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client01/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client01/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client01/target/classes/cn/edu/scnu/StarterEurekaClient01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client01/target/classes/cn/edu/scnu/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client02/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client02/src/main/java/cn/edu/scnu/StarterEurekaClient02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client02/src/main/java/cn/edu/scnu/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client02/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client02/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client02/target/classes/cn/edu/scnu/StarterEurekaClient02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client02/target/classes/cn/edu/scnu/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client03/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client03/src/main/java/cn/edu/scnu/StarterEurekaClient03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client03/src/main/java/cn/edu/scnu/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client03/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client03/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client03/target/classes/cn/edu/scnu/StarterEurekaClient03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client03/target/classes/cn/edu/scnu/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server01/target/classes/cn/edu/scnu/StarterEurekaServer01.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server01/target/classes/cn/edu/scnu/StarterEurekaServer01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server02/target/classes/cn/edu/scnu/StarterEurekaServer02.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server02/target/classes/cn/edu/scnu/StarterEurekaServer02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon/target/classes/cn/edu/scnu/StarterRibbon.class" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/target/classes/cn/edu/scnu/StarterRibbon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon/target/classes/cn/edu/scnu/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/target/classes/cn/edu/scnu/controller/HelloController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +28,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -87,45 +51,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelOrder2": "2",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RequestMappingsPanelWidth2": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "database.data.extractors.current.export.id": "SQL Inserts",
-    "database.data.extractors.current.id": "SQL Inserts",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "E:/homework/easymall/easymall-microservice-pic/src/main/java/cn/edu/scnu",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.11034483",
-    "project.structure.side.proportion": "0.19516908",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "93eb3c98b15ed110b973f717b68efdb6",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;SQL Inserts&quot;,
+    &quot;database.data.extractors.current.id&quot;: &quot;SQL Inserts&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/homework/easymall/easymall-microservice-pic/src/main/java/cn/edu/scnu&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.11034483&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.19516908&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;93eb3c98b15ed110b973f717b68efdb6&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql",
-      "redis"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;redis&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -148,6 +112,18 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
+    <option name="hiddenConfigurations">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <set>
+              <option value="StarterEurekaServer01" />
+              <option value="StarterEurekaServer02" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.StarterUserCenter">
     <configuration name="MD5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -166,32 +142,6 @@
     <configuration name="StartGateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="easymall-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.scnu.StartGateway" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.edu.scnu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StarterEurekaServer01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="eureka-server01" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.scnu.StarterEurekaServer01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.edu.scnu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StarterEurekaServer02" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="eureka-server02" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.scnu.StarterEurekaServer02" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.edu.scnu.*" />
@@ -243,8 +193,6 @@
     </configuration>
     <list>
       <item itemvalue="Application.MD5Util" />
-      <item itemvalue="Spring Boot.StarterEurekaServer01" />
-      <item itemvalue="Spring Boot.StarterEurekaServer02" />
       <item itemvalue="Spring Boot.StarterUserCenter" />
       <item itemvalue="Spring Boot.StarterPicCenter" />
       <item itemvalue="Spring Boot.StarterProductCenter" />
@@ -252,10 +200,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.StarterUserCenter" />
+        <item itemvalue="Spring Boot.StartGateway" />
         <item itemvalue="Spring Boot.StarterProductCenter" />
         <item itemvalue="Spring Boot.StarterPicCenter" />
-        <item itemvalue="Spring Boot.StartGateway" />
+        <item itemvalue="Spring Boot.StarterUserCenter" />
         <item itemvalue="Application.MD5Util" />
       </list>
     </recent_temporary>
@@ -311,7 +259,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/lab5" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

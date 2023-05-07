@@ -34,34 +34,16 @@
       </schema-mapping>
     </data-source>
     <data-source name="0@116.205.130.21" uuid="c0a54aed-cbf3-4f1f-b14e-3eceaab9105a">
-      <database-info product="Redis" version="7.0.11" jdbc-version="4.2" driver-name="Redis JDBC Driver" driver-version="1.3" dbms="REDIS" exact-version="7.0.11" exact-driver-version="1.3" />
-      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
-      <secret-storage>master_key</secret-storage>
-      <schema-mapping>
-        <introspection-scope>
-          <node kind="schema" negative="1" />
-        </introspection-scope>
-      </schema-mapping>
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="REDIS" exact-version="0" />
+      <schema-mapping />
     </data-source>
     <data-source name="0@116.205.130.21 [2]" uuid="b30b3979-ad4f-46d5-9cd3-e9c569a8407d">
-      <database-info product="Redis" version="7.0.11" jdbc-version="4.2" driver-name="Redis JDBC Driver" driver-version="1.3" dbms="REDIS" exact-version="7.0.11" exact-driver-version="1.3" />
-      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
-      <secret-storage>master_key</secret-storage>
-      <schema-mapping>
-        <introspection-scope>
-          <node kind="schema" negative="1" />
-        </introspection-scope>
-      </schema-mapping>
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="REDIS" exact-version="0" />
+      <schema-mapping />
     </data-source>
     <data-source name="0@116.205.130.21 [3]" uuid="d107b14f-8fc8-407d-b204-390c376e5b10">
-      <database-info product="Redis" version="7.0.11" jdbc-version="4.2" driver-name="Redis JDBC Driver" driver-version="1.3" dbms="REDIS" exact-version="7.0.11" exact-driver-version="1.3" />
-      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
-      <secret-storage>master_key</secret-storage>
-      <schema-mapping>
-        <introspection-scope>
-          <node kind="schema" negative="1" />
-        </introspection-scope>
-      </schema-mapping>
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="REDIS" exact-version="0" />
+      <schema-mapping />
     </data-source>
   </component>
 </project>
