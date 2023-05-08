@@ -16,8 +16,8 @@ services:
     image: redis:latest
     networks:
       redis:
-        ipv4_address: 192.168.0.242
-    command: redis-cli --cluster create 192.168.0.242:8000 192.168.0.242:8001 192.168.0.242:8002 192.168.0.242:8003 192.168.0.242:8004 192.168.0.242:8005 --cluster-replicas 1  --cluster-yes
+        ipv4_address: 172.19.0.2
+    command: redis-cli --cluster create 172.19.0.10:8000 172.19.0.10:8001 172.19.0.10:8002 172.19.0.10:8003 172.19.0.10:8004 172.19.0.10:8005 --cluster-replicas 1  --cluster-yes
     depends_on:
       - redis-8000
       - redis-8001
@@ -30,10 +30,10 @@ services:
     container_name: redis-8000 # 容器名称
     networks:
       redis:
-        ipv4_address: 192.168.0.242
+        ipv4_address: 172.19.0.10
     ports:
       - 8000:8000
-      - 16380:16380
+      - 18000:18000
     volumes: # 数据卷，目录挂载
       - ./8000/redis-cluster.conf:/usr/local/etc/redis/redis.conf
       - ./8000/data:/data
@@ -44,10 +44,10 @@ services:
     container_name: redis-8001
     networks:
       redis:
-        ipv4_address: 192.168.0.242
+        ipv4_address: 172.19.0.10
     ports:
       - 8001:8001
-      - 16381:16381
+      - 18001:18001
     volumes:
       - ./8001/redis-cluster.conf:/usr/local/etc/redis/redis.conf
       - ./8001/data:/data
@@ -58,10 +58,10 @@ services:
     container_name: redis-8002
     networks:
       redis:
-        ipv4_address: 192.168.0.242
+        ipv4_address: 172.19.0.10
     ports:
       - 8002:8002
-      - 16382:16382
+      - 18002:18002
     volumes:
       - ./8002/redis-cluster.conf:/usr/local/etc/redis/redis.conf
       - ./8002/data:/data
@@ -72,10 +72,10 @@ services:
     container_name: redis-8003
     networks:
       redis:
-        ipv4_address: 192.168.0.242
+        ipv4_address: 172.19.0.10
     ports:
       - 8003:8003
-      - 16383:16383
+      - 18003:18003
     volumes:
       - ./8003/redis-cluster.conf:/usr/local/etc/redis/redis.conf
       - ./8003/data:/data
@@ -86,10 +86,10 @@ services:
     container_name: redis-8004
     networks:
       redis:
-        ipv4_address: 192.168.0.242
+        ipv4_address: 172.19.0.10
     ports:
       - 8004:8004
-      - 16384:16384
+      - 18004:18004
     volumes:
       - ./8004/redis-cluster.conf:/usr/local/etc/redis/redis.conf
       - ./8004/data:/data
@@ -100,10 +100,10 @@ services:
     container_name: redis-8005
     networks:
       redis:
-        ipv4_address: 192.168.0.242
+        ipv4_address: 172.19.0.10
     ports:
       - 8005:8005
-      - 16385:16385
+      - 18005:18005
     volumes:
       - ./8005/redis-cluster.conf:/usr/local/etc/redis/redis.conf
       - ./8005/data:/data
@@ -133,3 +133,9 @@ services:
       - ./sentinel26381.conf:/usr/local/etc/redis/sentinel26381.conf
     ports:
      - 26381:26381
+
+networks:
+  redis:
+    ipam:
+      config:
+        - subnet: 172.19.0.0/16
