@@ -14,6 +14,9 @@ services:
 
   redis-cluster:
     image: redis:latest
+    networks:
+      redis:
+        ipv4_address: 192.168.0.242
     command: redis-cli --cluster create 192.168.0.242:8000 192.168.0.242:8001 192.168.0.242:8002 192.168.0.242:8003 192.168.0.242:8004 192.168.0.242:8005 --cluster-replicas 1  --cluster-yes
     depends_on:
       - redis-8000
@@ -25,6 +28,9 @@ services:
   redis-8000: # 服务名称
     image: redis:latest # 创建容器时所需的镜像
     container_name: redis-8000 # 容器名称
+    networks:
+      redis:
+        ipv4_address: 192.168.0.242
     ports:
       - 8000:8000
       - 16380:16380
@@ -36,6 +42,9 @@ services:
   redis-8001:
     image: redis:latest
     container_name: redis-8001
+    networks:
+      redis:
+        ipv4_address: 192.168.0.242
     ports:
       - 8001:8001
       - 16381:16381
@@ -47,6 +56,9 @@ services:
   redis-8002:
     image: redis:latest
     container_name: redis-8002
+    networks:
+      redis:
+        ipv4_address: 192.168.0.242
     ports:
       - 8002:8002
       - 16382:16382
@@ -58,6 +70,9 @@ services:
   redis-8003:
     image: redis:latest
     container_name: redis-8003
+    networks:
+      redis:
+        ipv4_address: 192.168.0.242
     ports:
       - 8003:8003
       - 16383:16383
@@ -69,6 +84,9 @@ services:
   redis-8004:
     image: redis:latest
     container_name: redis-8004
+    networks:
+      redis:
+        ipv4_address: 192.168.0.242
     ports:
       - 8004:8004
       - 16384:16384
@@ -80,6 +98,9 @@ services:
   redis-8005:
     image: redis:latest
     container_name: redis-8005
+    networks:
+      redis:
+        ipv4_address: 192.168.0.242
     ports:
       - 8005:8005
       - 16385:16385

@@ -6,4 +6,4 @@
 
 5.6 lab3 lab4
 
-5.7 lab5 lab6
+5.7 lab5 lab6(docker extra setting:CLUSTER DOCKER/NAT support)
