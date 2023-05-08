@@ -5,13 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2371f7dc-b7f5-4dfd-87d4-6e52bd5b202c" name="Changes" comment="init">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/8000/redis-cluster.conf" beforeDir="false" afterPath="$PROJECT_DIR$/configs/8000/redis-cluster.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/8001/redis-cluster.conf" beforeDir="false" afterPath="$PROJECT_DIR$/configs/8001/redis-cluster.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/8002/redis-cluster.conf" beforeDir="false" afterPath="$PROJECT_DIR$/configs/8002/redis-cluster.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/8003/redis-cluster.conf" beforeDir="false" afterPath="$PROJECT_DIR$/configs/8003/redis-cluster.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/8004/redis-cluster.conf" beforeDir="false" afterPath="$PROJECT_DIR$/configs/8004/redis-cluster.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/8005/redis-cluster.conf" beforeDir="false" afterPath="$PROJECT_DIR$/configs/8005/redis-cluster.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -236,7 +229,7 @@
       <workItem from="1683365206274" duration="23280000" />
       <workItem from="1683443443248" duration="9012000" />
       <workItem from="1683454189223" duration="5515000" />
-      <workItem from="1683533703623" duration="12353000" />
+      <workItem from="1683533703623" duration="12701000" />
     </task>
     <servers />
   </component>
