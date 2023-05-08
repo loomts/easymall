@@ -49,7 +49,7 @@ services:
   redis6383:
     container_name: redis6383
     image: redis:latest
-    command: redis-server /usr/local/etc/redis/redis6383.conf --port 6383
+    command: redis-server /usr/local/etc/redis/redis6383.conf --port 6383 --replicaof 192.168.0.242 6382
     volumes:
       - ./redis6383.conf:/usr/local/etc/redis/redis6383.conf
     ports:
@@ -57,7 +57,7 @@ services:
   redis6384:
     container_name: redis6384
     image: redis:latest
-    command: redis-server /usr/local/etc/redis/redis6384.conf --port 6384
+    command: redis-server /usr/local/etc/redis/redis6384.conf --port 6384 --replicaof 192.168.0.242 6382
     volumes:
       - ./redis6384.conf:/usr/local/etc/redis/redis6384.conf
     ports:
