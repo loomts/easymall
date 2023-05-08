@@ -27,6 +27,7 @@ services:
     container_name: redis-8000 # 容器名称
     ports:
       - 8000:8000
+      - 16380:16380
     volumes: # 数据卷，目录挂载
       - ./8000/redis-cluster.conf:/usr/local/etc/redis/redis.conf
       - ./8000/data:/data
@@ -37,6 +38,7 @@ services:
     container_name: redis-8001
     ports:
       - 8001:8001
+      - 16381:16381
     volumes:
       - ./8001/redis-cluster.conf:/usr/local/etc/redis/redis.conf
       - ./8001/data:/data
@@ -47,6 +49,7 @@ services:
     container_name: redis-8002
     ports:
       - 8002:8002
+      - 16382:16382
     volumes:
       - ./8002/redis-cluster.conf:/usr/local/etc/redis/redis.conf
       - ./8002/data:/data
@@ -57,6 +60,7 @@ services:
     container_name: redis-8003
     ports:
       - 8003:8003
+      - 16383:16383
     volumes:
       - ./8003/redis-cluster.conf:/usr/local/etc/redis/redis.conf
       - ./8003/data:/data
@@ -67,6 +71,7 @@ services:
     container_name: redis-8004
     ports:
       - 8004:8004
+      - 16384:16384
     volumes:
       - ./8004/redis-cluster.conf:/usr/local/etc/redis/redis.conf
       - ./8004/data:/data
@@ -77,6 +82,7 @@ services:
     container_name: redis-8005
     ports:
       - 8005:8005
+      - 16385:16385
     volumes:
       - ./8005/redis-cluster.conf:/usr/local/etc/redis/redis.conf
       - ./8005/data:/data
