@@ -62,3 +62,27 @@ services:
       - ./redis6384.conf:/usr/local/etc/redis/redis6384.conf
     ports:
       - 6384:6384
+  sentinel26379:
+    container_name: sentinel26379
+    image: redis:latest
+    command: redis-sentinel /usr/local/etc/redis/sentinel26379.conf --port 26379
+    volumes:
+      - ./redis26379.conf:/usr/local/etc/redis/redis26379.conf
+    ports:
+     - 26379:26379
+  sentinel26380:
+    container_name: sentinel26380
+    image: redis:latest
+    command: redis-sentinel /usr/local/etc/redis/sentinel26380.conf --port 26380
+    volumes:
+      - ./redis26380.conf:/usr/local/etc/redis/redis26380.conf
+    ports:
+     - 26380:26380
+  sentinel26381:
+    container_name: sentinel26381
+    image: redis:latest
+    command: redis-sentinel /usr/local/etc/redis/sentinel26381.conf --port 26381
+    volumes:
+      - ./redis26381.conf:/usr/local/etc/redis/redis26381.conf
+    ports:
+     - 26381:26381
