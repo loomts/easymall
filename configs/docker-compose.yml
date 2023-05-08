@@ -11,14 +11,14 @@ services:
     volumes:
       - /var/lib/mysql:/var/lib/mysql
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
-  redis01:
-    container_name: redis01
+  redis8000:
+    container_name: redis8000
     image: redis:latest
-    command: redis-server /usr/local/etc/redis/redis01.conf --port 6379
+    command: redis-server /usr/local/etc/redis/redis.conf --port 8000
     volumes:
-      - ./redis01.conf:/usr/local/etc/redis/redis01.conf
+      - ./8000/redis-cluster.conf:/usr/local/etc/redis/redis.conf
     ports:
-      - 6379:6379
+      - 8000:8000
 
   redis02:
     container_name: redis02
@@ -67,7 +67,7 @@ services:
     image: redis:latest
     command: redis-sentinel /usr/local/etc/redis/sentinel26379.conf --port 26379
     volumes:
-      - ./redis26379.conf:/usr/local/etc/redis/redis26379.conf
+      - ./sentinel26379.conf:/usr/local/etc/redis/sentinel26379.conf
     ports:
      - 26379:26379
   sentinel26380:
@@ -75,7 +75,7 @@ services:
     image: redis:latest
     command: redis-sentinel /usr/local/etc/redis/sentinel26380.conf --port 26380
     volumes:
-      - ./redis26380.conf:/usr/local/etc/redis/redis26380.conf
+      - ./sentinel26380.conf:/usr/local/etc/redis/sentinel26380.conf
     ports:
      - 26380:26380
   sentinel26381:
@@ -83,6 +83,6 @@ services:
     image: redis:latest
     command: redis-sentinel /usr/local/etc/redis/sentinel26381.conf --port 26381
     volumes:
-      - ./redis26381.conf:/usr/local/etc/redis/redis26381.conf
+      - ./sentinel26381.conf:/usr/local/etc/redis/sentinel26381.conf
     ports:
      - 26381:26381
