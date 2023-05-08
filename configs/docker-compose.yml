@@ -11,57 +11,77 @@ services:
     volumes:
       - /var/lib/mysql:/var/lib/mysql
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
-  redis8000:
-    container_name: redis8000
+
+  redis-cluster:
     image: redis:latest
-    command: redis-server /usr/local/etc/redis/redis.conf --port 8000
-    volumes:
-      - ./8000/redis-cluster.conf:/usr/local/etc/redis/redis.conf
+    command: redis-cli --cluster create 192.168.0.242:8000 192.168.0.242:8001 192.168.0.242:8002 192.168.0.242:8003 192.168.0.242:8004 192.168.0.242:8005 --cluster-replicas 1  --cluster-yes
+    depends_on:
+      - redis-8000
+      - redis-8001
+      - redis-8002
+      - redis-8003
+      - redis-8004
+      - redis-8005
+  redis-8000: # 服务名称
+    image: redis:latest # 创建容器时所需的镜像
+    container_name: redis-8000 # 容器名称
     ports:
       - 8000:8000
+    volumes: # 数据卷，目录挂载
+      - ./8000/redis-cluster.conf:/usr/local/etc/redis/redis.conf
+      - ./8000/data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf # 覆盖容器启动后默认执行的命令
 
-  redis02:
-    container_name: redis02
+  redis-8001:
     image: redis:latest
-    command: redis-server /usr/local/etc/redis/redis02.conf --port 6380
-    volumes:
-      - ./redis02.conf:/usr/local/etc/redis/redis02.conf
+    container_name: redis-8001
     ports:
-      - 6380:6380
+      - 8001:8001
+    volumes:
+      - ./8001/redis-cluster.conf:/usr/local/etc/redis/redis.conf
+      - ./8001/data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
 
-  redis03:
-    container_name: redis03
+  redis-8002:
     image: redis:latest
-    command: redis-server /usr/local/etc/redis/redis03.conf --port 6381
-    volumes:
-      - ./redis03.conf:/usr/local/etc/redis/redis03.conf
+    container_name: redis-8002
     ports:
-      - 6381:6381
+      - 8002:8002
+    volumes:
+      - ./8002/redis-cluster.conf:/usr/local/etc/redis/redis.conf
+      - ./8002/data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
 
-  redis6382:
-    container_name: redis6382
+  redis-8003:
     image: redis:latest
-    command: redis-server /usr/local/etc/redis/redis6382.conf --port 6382
-    volumes:
-      - ./redis6382.conf:/usr/local/etc/redis/redis6382.conf
+    container_name: redis-8003
     ports:
-      - 6382:6382
-  redis6383:
-    container_name: redis6383
+      - 8003:8003
+    volumes:
+      - ./8003/redis-cluster.conf:/usr/local/etc/redis/redis.conf
+      - ./8003/data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-8004:
     image: redis:latest
-    command: redis-server /usr/local/etc/redis/redis6383.conf --port 6383 --replicaof 192.168.0.242 6382
-    volumes:
-      - ./redis6383.conf:/usr/local/etc/redis/redis6383.conf
+    container_name: redis-8004
     ports:
-      - 6383:6383
-  redis6384:
-    container_name: redis6384
+      - 8004:8004
+    volumes:
+      - ./8004/redis-cluster.conf:/usr/local/etc/redis/redis.conf
+      - ./8004/data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  redis-8005:
     image: redis:latest
-    command: redis-server /usr/local/etc/redis/redis6384.conf --port 6384 --replicaof 192.168.0.242 6382
-    volumes:
-      - ./redis6384.conf:/usr/local/etc/redis/redis6384.conf
+    container_name: redis-8005
     ports:
-      - 6384:6384
+      - 8005:8005
+    volumes:
+      - ./8005/redis-cluster.conf:/usr/local/etc/redis/redis.conf
+      - ./8005/data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
   sentinel26379:
     container_name: sentinel26379
     image: redis:latest
