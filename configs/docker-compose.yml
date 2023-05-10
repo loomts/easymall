@@ -14,7 +14,7 @@ services:
 
   redis-cluster:
     image: redis:latest
-    command: redis-cli --cluster create 116.205.130.21:8000 116.205.130.21:8001 116.205.130.21:8002 116.205.130.21:8003 116.205.130.21:8004 116.205.130.21:8005 --cluster-replicas 1  --cluster-yes
+    command: redis-cli --cluster create 192.168.0.242:8000 192.168.0.242:8001 192.168.0.242:8002 192.168.0.242:8003 192.168.0.242:8004 192.168.0.242:8005 --cluster-replicas 1  --cluster-yes
     depends_on:
       - redis-8000
       - redis-8001
