@@ -1,7 +1,4 @@
 version: '3.3'
-networks:
-  redis-cluster:
-    driver: host
 services:
   mysql:
     container_name: mysql
@@ -28,8 +25,6 @@ services:
   redis-8000: # 服务名称
     image: redis:latest # 创建容器时所需的镜像
     container_name: redis-8000 # 容器名称
-    networks:
-      - redis-cluster
     ports:
       - 8000:8000
       - 18000:18000
@@ -41,8 +36,6 @@ services:
   redis-8001:
     image: redis:latest
     container_name: redis-8001
-    networks:
-      - redis-cluster
     ports:
       - 8001:8001
       - 18001:18001
@@ -54,8 +47,6 @@ services:
   redis-8002:
     image: redis:latest
     container_name: redis-8002
-    networks:
-      - redis-cluster
     ports:
       - 8002:8002
       - 18002:18002
@@ -67,8 +58,6 @@ services:
   redis-8003:
     image: redis:latest
     container_name: redis-8003
-    networks:
-      - redis-cluster
     ports:
       - 8003:8003
       - 18003:18003
@@ -80,8 +69,6 @@ services:
   redis-8004:
     image: redis:latest
     container_name: redis-8004
-    networks:
-      - redis-cluster
     ports:
       - 8004:8004
       - 18004:18004
@@ -93,8 +80,6 @@ services:
   redis-8005:
     image: redis:latest
     container_name: redis-8005
-    networks:
-      - redis-cluster
     ports:
       - 8005:8005
       - 18005:18005
