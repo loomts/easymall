@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2371f7dc-b7f5-4dfd-87d4-6e52bd5b202c" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/springboot-redis/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-redis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-redis/src/main/java/cn/edu/scnu/JedisClusterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-redis/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-redis/src/test/java/cn/edu/scnu/JedisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-redis/src/test/java/cn/edu/scnu/RedisServerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b30b3979-ad4f-46d5-9cd3-e9c569a8407d.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d107b14f-8fc8-407d-b204-390c376e5b10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/8000/redis-cluster.conf" beforeDir="false" afterPath="$PROJECT_DIR$/configs/8000/redis-cluster.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/8001/redis-cluster.conf" beforeDir="false" afterPath="$PROJECT_DIR$/configs/8001/redis-cluster.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/8002/redis-cluster.conf" beforeDir="false" afterPath="$PROJECT_DIR$/configs/8002/redis-cluster.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/8003/redis-cluster.conf" beforeDir="false" afterPath="$PROJECT_DIR$/configs/8003/redis-cluster.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/8004/redis-cluster.conf" beforeDir="false" afterPath="$PROJECT_DIR$/configs/8004/redis-cluster.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/8005/redis-cluster.conf" beforeDir="false" afterPath="$PROJECT_DIR$/configs/8005/redis-cluster.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2371f7dc-b7f5-4dfd-87d4-6e52bd5b202c" name="Changes" comment="init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,9 +204,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.JedisTest.test09" />
+        <item itemvalue="JUnit.JedisTest.test10" />
         <item itemvalue="JUnit.JedisTest.test" />
         <item itemvalue="JUnit.JedisTest.test08" />
-        <item itemvalue="JUnit.JedisTest.test10" />
         <item itemvalue="Spring Boot.RedisServerTest" />
       </list>
     </recent_temporary>
@@ -271,7 +249,7 @@
       <workItem from="1683443443248" duration="9012000" />
       <workItem from="1683454189223" duration="5515000" />
       <workItem from="1683533703623" duration="17397000" />
-      <workItem from="1683640384987" duration="10627000" />
+      <workItem from="1683640384987" duration="10996000" />
     </task>
     <servers />
   </component>
