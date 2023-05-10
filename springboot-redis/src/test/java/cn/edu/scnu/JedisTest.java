@@ -2,12 +2,8 @@ package cn.edu.scnu;
 
 import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
 import org.junit.Test;
-import org.springframework.data.redis.connection.RedisClusterNode;
 import redis.clients.jedis.*;
-
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 public class JedisTest {
@@ -29,14 +25,14 @@ public class JedisTest {
     }
 
     @Test
-    public void test08() {
+    public void test02() {
         JedisPool pool = new JedisPool("116.205.130.21", 8000);
         pool.getResource().set("dakta", "100");
         pool.getResource().get("dakta");
     }
 
     @Test
-    public void test09() {
+    public void test03() {
         // 收集节点信息
         Set<HostAndPort> set = new HashSet<>();
         // 将3个节点信息.add到infoList总
@@ -60,7 +56,7 @@ public class JedisTest {
     }
 
     @Test
-    public void test10() {
+    public void test4() {
         Set<String> sentinelSet = new HashSet<>();
         sentinelSet.add(new HostAndPort("116.205.130.21", 26379).toString());
         sentinelSet.add(new HostAndPort("116.205.130.21", 26380).toString());
