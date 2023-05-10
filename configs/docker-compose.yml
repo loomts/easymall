@@ -1,7 +1,7 @@
 version: '3.3'
 networks:
   redis-cluster:
-    driver: bridge
+    driver: host
 services:
   mysql:
     container_name: mysql
