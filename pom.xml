@@ -19,6 +19,7 @@
         <module>easymall-microservice-product</module>
         <module>easymall-microservice-pic</module>
         <module>easymall-microservice-user</module>
+        <module>springboot-redis</module>
     </modules>
 
     <parent>

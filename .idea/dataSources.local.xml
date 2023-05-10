@@ -34,16 +34,63 @@
       </schema-mapping>
     </data-source>
     <data-source name="0@116.205.130.21" uuid="c0a54aed-cbf3-4f1f-b14e-3eceaab9105a">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="REDIS" exact-version="0" />
-      <schema-mapping />
+      <database-info product="Redis" version="7.0.11" jdbc-version="4.2" driver-name="Redis JDBC Driver" driver-version="1.3" dbms="REDIS" exact-version="7.0.11" exact-driver-version="1.3" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="0" />
+        </introspection-scope>
+      </schema-mapping>
     </data-source>
-    <data-source name="0@116.205.130.21 [2]" uuid="b30b3979-ad4f-46d5-9cd3-e9c569a8407d">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="REDIS" exact-version="0" />
-      <schema-mapping />
+    <data-source name="0@116.205.130.21 [2]" uuid="0d04844d-315b-4812-b4e8-f7c5d07394bb">
+      <database-info product="Redis" version="7.0.11" jdbc-version="4.2" driver-name="Redis JDBC Driver" driver-version="1.3" dbms="REDIS" exact-version="7.0.11" exact-driver-version="1.3" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
     </data-source>
-    <data-source name="0@116.205.130.21 [3]" uuid="d107b14f-8fc8-407d-b204-390c376e5b10">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="REDIS" exact-version="0" />
-      <schema-mapping />
+    <data-source name="0@116.205.130.21 [3]" uuid="8882cf74-3d36-4fe4-be38-0b07ef0f1018">
+      <database-info product="Redis" version="7.0.11" jdbc-version="4.2" driver-name="Redis JDBC Driver" driver-version="1.3" dbms="REDIS" exact-version="7.0.11" exact-driver-version="1.3" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="0@116.205.130.21 [4]" uuid="aadc90bd-8728-44ea-97d6-e278516a4b1b">
+      <database-info product="Redis" version="7.0.11" jdbc-version="4.2" driver-name="Redis JDBC Driver" driver-version="1.3" dbms="REDIS" exact-version="7.0.11" exact-driver-version="1.3" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="0@116.205.130.21 [5]" uuid="889dd726-4e80-4220-9540-1a5f9880f11a">
+      <database-info product="Redis" version="7.0.11" jdbc-version="4.2" driver-name="Redis JDBC Driver" driver-version="1.3" dbms="REDIS" exact-version="7.0.11" exact-driver-version="1.3" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="0@116.205.130.21 [6]" uuid="38ac56fb-f474-491a-9d85-df685c7a8c3e">
+      <database-info product="Redis" version="7.0.11" jdbc-version="4.2" driver-name="Redis JDBC Driver" driver-version="1.3" dbms="REDIS" exact-version="7.0.11" exact-driver-version="1.3" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
     </data-source>
   </component>
 </project>
