@@ -88,28 +88,28 @@ services:
       - ./8005/data:/data
     command: redis-server /usr/local/etc/redis/redis.conf
 
-  sentinel26379:
-    container_name: sentinel26379
+  sentinel28000:
+    container_name: sentinel28000
     image: redis:latest
-    command: redis-sentinel /usr/local/etc/redis/sentinel26379.conf --port 26379
+    command: redis-sentinel /usr/local/etc/redis/sentinel28000.conf --port 28000
     volumes:
-      - ./sentinel26379.conf:/usr/local/etc/redis/sentinel26379.conf
+      - ./sentinel28000.conf:/usr/local/etc/redis/sentinel28000.conf
     ports:
-     - 26379:26379
+     - 28000:28000
 
-  sentinel26380:
-    container_name: sentinel26380
+  sentinel28001:
+    container_name: sentinel28001
     image: redis:latest
-    command: redis-sentinel /usr/local/etc/redis/sentinel26380.conf --port 26380
+    command: redis-sentinel /usr/local/etc/redis/sentinel28001.conf --port 28001
     volumes:
-      - ./sentinel26380.conf:/usr/local/etc/redis/sentinel26380.conf
+      - ./sentinel28001.conf:/usr/local/etc/redis/sentinel28001.conf
     ports:
-     - 26380:26380
-  sentinel26381:
-    container_name: sentinel26381
+     - 28001:28001
+  sentinel28002:
+    container_name: sentinel28002
     image: redis:latest
-    command: redis-sentinel /usr/local/etc/redis/sentinel26381.conf --port 26381
+    command: redis-sentinel /usr/local/etc/redis/sentinel28002.conf --port 28002
     volumes:
-      - ./sentinel26381.conf:/usr/local/etc/redis/sentinel26381.conf
+      - ./sentinel28002.conf:/usr/local/etc/redis/sentinel28002.conf
     ports:
-     - 26381:26381
+     - 28002:28002
