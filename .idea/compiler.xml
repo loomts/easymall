@@ -8,11 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="easymall-microservice-product" />
-        <module name="springboot-redis" />
+        <module name="easymall-config-server" />
         <module name="ribbon" />
-        <module name="easymall-common-resources" />
         <module name="easymall-gateway" />
+        <module name="easymall-common-rediscluster" />
         <module name="eureka-server01" />
+        <module name="easymall-config-client" />
         <module name="eureka-server02" />
         <module name="easymall-microservice-user" />
         <module name="easymall-common-repository" />
@@ -20,6 +21,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
+      <module name="easymall-common-resources" target="1.8" />
       <module name="eureka-client01" target="1.8" />
       <module name="eureka-client02" target="1.8" />
       <module name="eureka-client03" target="1.8" />
@@ -30,8 +32,11 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="easymall" options="" />
+      <module name="easymall-common-rediscluster" options="-parameters" />
       <module name="easymall-common-repository" options="-parameters" />
       <module name="easymall-common-resources" options="-parameters" />
+      <module name="easymall-config-client" options="-parameters" />
+      <module name="easymall-config-server" options="-parameters" />
       <module name="easymall-gateway" options="-parameters" />
       <module name="easymall-microservice-pic" options="-parameters" />
       <module name="easymall-microservice-product" options="-parameters" />
@@ -43,7 +48,6 @@
       <module name="eureka-server02" options="-parameters" />
       <module name="ribbon" options="-parameters" />
       <module name="springboot-order-n" options="-parameters" />
-      <module name="springboot-redis" options="-parameters" />
       <module name="springboot-user-n" options="-parameters" />
     </option>
   </component>

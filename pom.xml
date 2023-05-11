@@ -13,13 +13,14 @@
         <module>eureka-server01</module>
         <module>eureka-server02</module>
         <module>easymall-gateway</module>
-        <module>ribbon</module>
         <module>easymall-common-repository</module>
         <module>easymall-common-resources</module>
         <module>easymall-microservice-product</module>
         <module>easymall-microservice-pic</module>
         <module>easymall-microservice-user</module>
-        <module>springboot-redis</module>
+        <module>easymall-common-rediscluster</module>
+        <module>easymall-config-server</module>
+        <module>easymall-config-client</module>
     </modules>
 
     <parent>
@@ -34,7 +35,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>11</java.version>
-        <spring-cloud.version>Hoxton.SR12</spring-cloud.version>
+        <spring-cloud.version>Hoxton.SR10</spring-cloud.version>
         <mysql.version>8.0.31</mysql.version>
         <mybatis.version>2.1.1</mybatis.version>
     </properties>

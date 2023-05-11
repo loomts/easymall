@@ -10,6 +10,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisCluster;
 import redis.clients.jedis.ShardedJedis;
 import redis.clients.jedis.ShardedJedisPool;
 import redis.clients.jedis.params.SetParams;
@@ -21,7 +23,7 @@ public class UserServiceImpl implements UserService {
     @Autowired
     UserMapper userMapper;
     @Autowired
-    ShardedJedisPool pool;
+    private JedisCluster jedis;
 
     @Override
     public int checkUserName(String userName) {
@@ -36,7 +38,6 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public String doLogin(User user) {
-        ShardedJedis jedis = pool.getResource();
         try {
             user.setUserPassword(MD5Util.md5(user.getUserPassword()));
             User userInfo = userMapper.doLogin(user);
@@ -46,13 +47,18 @@ public class UserServiceImpl implements UserService {
             String ticket = PrefixKey.USER_LOGIN_TICKET + user.getUserId() + System.currentTimeMillis();
             String userJson = JSON.toJSONString(userInfo);
             String loginCheckKey = PrefixKey.USER_LOGINED_CHECK_PREFIX + userInfo.getUserId();
-            String oldTicket = jedis.get(loginCheckKey);
-            if (oldTicket != null && !oldTicket.isEmpty()) {
-                jedis.del(oldTicket);
+            long len = jedis.llen(loginCheckKey);
+            if (len >= 3) {
+                jedis.lpop(loginCheckKey);
             }
-            jedis.set(loginCheckKey, ticket);
+            jedis.rpush(loginCheckKey, ticket);
+//            String oldTicket = jedis.get(loginCheckKey);
+//            if (oldTicket != null && !oldTicket.isEmpty()) {
+//                jedis.del(oldTicket);
+//            }
+//            jedis.set(loginCheckKey, ticket);
             log.info("LOGIN " + userInfo.getUserName() + "::" + ticket);
-            jedis.set(ticket, userJson, SetParams.setParams().ex(15 * 60));
+            jedis.setex(ticket, 30 * 60, userJson);
             return ticket;
         } catch (Exception e) {
             e.printStackTrace();
@@ -62,9 +68,14 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public String queryUser(String ticket) {
-        ShardedJedis jedis = pool.getResource();
         String userJson;
         try {
+            //首先判断超时剩余时间
+            Long leftTime = jedis.pttl(ticket);
+            //少于10分钟,延长5分钟
+            if (leftTime < 1000 * 60 * 10L) {
+                jedis.pexpire(ticket, leftTime + 1000 * 60 * 5);
+            }
             userJson = jedis.get(ticket);
             return userJson;
         } catch (Exception e) {

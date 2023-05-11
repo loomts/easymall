@@ -35,3 +35,9 @@ mybatis:
   configuration:
     mapUnderscoreToCamelCase: true
     cacheEnabled: false
+eureka:
+  client:
+    service-url:
+      defaultZone:
+        - http://localhost:8761/eureka
+        - http://localhost:8762/eureka

@@ -1,18 +1,4 @@
-# eureka:
-#     client:
-#         serviceUrl:
-#             defaultZone: http://localhost:8761/eureka/
-# mybatis:
-#     configuration:
-#         cacheEnabled: false
-#         mapUnderscoreToCamelCase: true
-#     mapperLocations: classpath:mapper/*.xml
-#     typeAliasesPackage: com.easymall.pojo
-# server:
-#     port: 10001
 spring:
-#     application:
-#         name: product-service
     datasource:
         driver-class-name: com.mysql.cj.jdbc.Driver
         initialSize: 5

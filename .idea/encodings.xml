@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/easymall-common-rediscluster/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/easymall-common-repository/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/easymall-common-resources/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymall-config-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymall-config-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easymall-config-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/easymall-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/easymall-gateway/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/easymall-microservice-pic/src/main/java" charset="UTF-8" />
@@ -19,9 +23,9 @@
     <file url="file://$PROJECT_DIR$/eureka-server02/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server02/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ribbon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ribbon/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-order-n/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-order-n/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-user-n/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-user-n/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />

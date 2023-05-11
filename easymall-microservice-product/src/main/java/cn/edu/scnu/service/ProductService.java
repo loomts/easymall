@@ -8,7 +8,7 @@ import java.util.UUID;
 
 public interface ProductService {
     EasyUIResult productPageQuery(Integer page, Integer rows);
-    String queryById(String prodId);
+    Product queryById(String prodId);
     void productSave(Product product);
     void productUpdate(Product product);
 }

@@ -1,0 +1,24 @@
+eureka:
+    client:
+        serviceUrl:
+            defaultZone:
+              - http://localhost:8761/eureka
+              - http://localhost:8762/eureka
+
+server:
+    port: 8095
+spring:
+    application:
+        name: redis-service
+    redis:
+        cluster:
+            maxIdle: 8
+            maxTotal: 200
+            minIdle: 2
+            nodes:
+              - 116.205.130.21:8000
+              - 116.205.130.21:8001
+              - 116.205.130.21:8002
+              - 116.205.130.21:8003
+              - 116.205.130.21:8004
+              - 116.205.130.21:8005

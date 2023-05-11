@@ -5,15 +5,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/easymall-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server02/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/eureka-client01/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-client02/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-client03/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-order-n/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-user-n/pom.xml" />
+        <option value="$PROJECT_DIR$/easymall-common-resources/pom.xml" />
       </set>
     </option>
   </component>

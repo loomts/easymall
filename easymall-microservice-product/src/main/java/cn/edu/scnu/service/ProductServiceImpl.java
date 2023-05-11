@@ -10,15 +10,12 @@ package cn.edu.scnu.service;
 import cn.edu.scnu.mapper.ProductMapper;
 import com.alibaba.fastjson2.JSON;
 import com.easymall.pojo.Product;
+import com.easymall.utils.PrefixKey;
 import com.easymall.vo.EasyUIResult;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.netflix.discovery.converters.Auto;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
+import redis.clients.jedis.JedisCluster;
 
 import java.util.List;
 import java.util.UUID;
@@ -29,7 +26,7 @@ public class ProductServiceImpl implements ProductService {
     @Autowired
     ProductMapper productMapper;
     @Autowired
-    StringRedisTemplate redis;
+    JedisCluster jedis;
 
     public EasyUIResult productPageQuery(Integer page, Integer rows) {
         EasyUIResult result = new EasyUIResult();
@@ -42,16 +39,26 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public String queryById(String prodId) {
-        String productInfo = redis.opsForValue().get(prodId);
-        if (productInfo != null && !productInfo.isEmpty()) {
-            log.info("商品" + prodId + "击中缓存");
-            return productInfo;
-        } else {
-            Product product = productMapper.queryById(prodId);
-            String productJson = JSON.toJSONString(product);
-            redis.opsForValue().set(prodId, productJson);
-            return productJson;
+    public Product queryById(String productId) {
+        String productKey = PrefixKey.PRODUCT_QUERY + productId;
+        String lock = PrefixKey.PRODUCT_UPDATE + productId + PrefixKey.LOCK;
+        try {
+            if (jedis.exists(lock)) {
+                return productMapper.queryById(productId);
+            }
+            if (jedis.exists(productId)) {
+                String productJson = jedis.get(productKey);
+                log.info("商品" + productId + "击中缓存");
+                return JSON.parseObject(productJson, Product.class);
+            } else {
+                Product product = productMapper.queryById(productId);
+                String productJson = JSON.toJSONString(product);
+                jedis.setex(productKey, 60 * 60 * 24 * 2, productJson);
+                return product;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
         }
     }
 
@@ -63,7 +70,11 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public void productUpdate(Product product) {
-
+        String lock = PrefixKey.PRODUCT_UPDATE + product.getProductId() + PrefixKey.LOCK;
+        long leftTime = jedis.ttl(PrefixKey.PRODUCT_QUERY + product.getProductId());
+        jedis.setex(lock, (int) (leftTime), "");
+        jedis.del(PrefixKey.PRODUCT_QUERY + product.getProductId());
+        productMapper.productUpdate(product);
+        jedis.del(lock);
     }
 }
-

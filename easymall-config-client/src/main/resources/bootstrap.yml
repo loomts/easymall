@@ -1,0 +1,19 @@
+server:
+  port: 11100
+
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      label: master
+      discovery:
+        enabled: true
+        service-id: config-server
+      name: test
+eureka:
+  client:
+    service-url:
+      defaultZone:
+        - http://localhost:8761/eureka
+        - http://localhost:8762/eureka

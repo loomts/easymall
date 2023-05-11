@@ -9,6 +9,8 @@ package com.easymall.utils;
 
 public class PrefixKey {
     public static final String PRODUCT_QUERY = "product_query_";
+    public static final String PRODUCT_UPDATE = "product_update";
     public static final String USER_LOGINED_CHECK_PREFIX = "user_logined_check_";
     public static final String USER_LOGIN_TICKET = "EM_ticket_";
+    public static final String LOCK = "lock";
 }

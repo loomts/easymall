@@ -8,4 +8,4 @@ server:
     port: 9004
 spring:
     application:
-        name: service02
+        name: ribbon-service

@@ -5,9 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2371f7dc-b7f5-4dfd-87d4-6e52bd5b202c" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/easymall-config-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easymall-config-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easymall-config-client/src/main/java/cn/edu/scnu/StarterConfigClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easymall-config-client/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easymall-config-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easymall-config-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easymall-config-server/src/main/java/cn/edu/scnu/StarterConfigServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easymall-config-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/resources/bootstrap.yml.bk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/889dd726-4e80-4220-9540-1a5f9880f11a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/889dd726-4e80-4220-9540-1a5f9880f11a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c0a54aed-cbf3-4f1f-b14e-3eceaab9105a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c0a54aed-cbf3-4f1f-b14e-3eceaab9105a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/docker-compose.yml.bk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-redis/src/test/java/cn/edu/scnu/JedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-redis/src/test/java/cn/edu/scnu/JedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/redis-cluster.conf" beforeDir="false" afterPath="$PROJECT_DIR$/configs/redis-cluster.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easymall-common-repository/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-common-repository/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easymall-common-resources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-common-resources/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easymall-common-resources/src/main/java/com/easymall/utils/PrefixKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-common-resources/src/main/java/com/easymall/utils/PrefixKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easymall-microservice-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easymall-microservice-user/src/main/java/cn/edu/scnu/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-user/src/main/java/cn/edu/scnu/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easymall-microservice-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server01/target/classes/cn/edu/scnu/StarterEurekaServer01.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server01/target/classes/cn/edu/scnu/StarterEurekaServer01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server02/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server02/src/main/java/cn/edu/scnu/StarterEurekaServer02.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server02/src/main/java/cn/edu/scnu/StarterEurekaServer02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server02/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server02/target/classes/cn/edu/scnu/StarterEurekaServer02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/target/classes/cn/edu/scnu/StarterRibbon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/target/classes/cn/edu/scnu/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-common-rediscluster/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-common-rediscluster/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/src/main/java/cn/edu/scnu/JedisClusterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-common-rediscluster/src/main/java/cn/edu/scnu/JedisClusterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-common-rediscluster/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/src/test/java/cn/edu/scnu/JedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-common-rediscluster/src/test/java/cn/edu/scnu/JedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/src/test/java/cn/edu/scnu/RedisServerTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +75,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
@@ -49,58 +91,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;database.data.extractors.current.export.id&quot;: &quot;SQL Inserts&quot;,
-    &quot;database.data.extractors.current.id&quot;: &quot;SQL Inserts&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/homework/easymall/easymall-microservice-pic/src/main/java/cn/edu/scnu&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.11034483&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.19516908&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;b2d1df50b761e268a374e176da2ff464&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "database.data.extractors.current.export.id": "SQL Inserts",
+    "database.data.extractors.current.id": "SQL Inserts",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "E:/java/easymall",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.11034483",
+    "project.structure.side.proportion": "0.28599033",
+    "settings.editor.selected.configurable": "http.proxy",
+    "spring.configuration.checksum": "b18a3f693574c9b1a9db1107169005e7",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;,
-      &quot;redis&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "redis"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java\easymall" />
       <recent name="E:\homework\easymall\easymall-microservice-pic\src\main\java\cn\edu\scnu" />
       <recent name="E:\homework\easymall\easymall-microservice-product\src\main\java\cn\edu\scnu" />
       <recent name="E:\homework\easymall\easymall-common-resources\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java\easymall" />
       <recent name="E:\java\easymall\configs" />
       <recent name="E:\homework\easymall\springboot-order-n\src" />
       <recent name="E:\homework\easymall\eureka-server2\src" />
@@ -120,9 +164,9 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RedisServerTest">
-    <configuration name="JedisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-redis" />
+  <component name="RunManager" selected="JUnit.JedisTest">
+    <configuration name="JedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="easymall-common-rediscluster" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.edu.scnu.*" />
@@ -131,14 +175,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.edu.scnu" />
       <option name="MAIN_CLASS_NAME" value="cn.edu.scnu.JedisTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JedisTest.test08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-redis" />
+    <configuration name="JedisTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="easymall-common-rediscluster" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.edu.scnu.*" />
@@ -147,14 +190,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.edu.scnu" />
       <option name="MAIN_CLASS_NAME" value="cn.edu.scnu.JedisTest" />
-      <option name="METHOD_NAME" value="test08" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JedisTest.test09" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-redis" />
+    <configuration name="JedisTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="easymall-common-rediscluster" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.edu.scnu.*" />
@@ -163,14 +206,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.edu.scnu" />
       <option name="MAIN_CLASS_NAME" value="cn.edu.scnu.JedisTest" />
-      <option name="METHOD_NAME" value="test09" />
+      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JedisTest.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-redis" />
+    <configuration name="JedisTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="easymall-common-rediscluster" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.edu.scnu.*" />
@@ -179,15 +222,15 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.edu.scnu" />
       <option name="MAIN_CLASS_NAME" value="cn.edu.scnu.JedisTest" />
-      <option name="METHOD_NAME" value="test10" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisServerTest" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot-redis" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.scnu.RedisServerTest" />
+    <configuration name="StarterProductCenter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="easymall-microservice-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.scnu.StarterProductCenter" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.edu.scnu.*" />
@@ -199,19 +242,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.JedisTest.test" />
-      <item itemvalue="JUnit.JedisTest.test08" />
-      <item itemvalue="JUnit.JedisTest.test09" />
-      <item itemvalue="JUnit.JedisTest.test10" />
-      <item itemvalue="Spring Boot.RedisServerTest" />
+      <item itemvalue="JUnit.JedisTest" />
+      <item itemvalue="JUnit.JedisTest.test01" />
+      <item itemvalue="JUnit.JedisTest.test02" />
+      <item itemvalue="JUnit.JedisTest.test4" />
+      <item itemvalue="Spring Boot.StarterProductCenter" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.RedisServerTest" />
-        <item itemvalue="JUnit.JedisTest.test09" />
-        <item itemvalue="JUnit.JedisTest.test10" />
-        <item itemvalue="JUnit.JedisTest.test" />
-        <item itemvalue="JUnit.JedisTest.test08" />
+        <item itemvalue="JUnit.JedisTest" />
+        <item itemvalue="JUnit.JedisTest.test4" />
+        <item itemvalue="JUnit.JedisTest.test02" />
+        <item itemvalue="Spring Boot.StarterProductCenter" />
+        <item itemvalue="JUnit.JedisTest.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -254,6 +297,11 @@
       <workItem from="1683454189223" duration="5515000" />
       <workItem from="1683533703623" duration="17397000" />
       <workItem from="1683640384987" duration="19724000" />
+      <workItem from="1683727395605" duration="259000" />
+      <workItem from="1683729180124" duration="982000" />
+      <workItem from="1683730177625" duration="7361000" />
+      <workItem from="1683771655533" duration="3203000" />
+      <workItem from="1683777993548" duration="4508000" />
     </task>
     <servers />
   </component>
