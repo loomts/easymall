@@ -2,7 +2,7 @@ server:
   port: 8762 #服务端口
 spring:
   application:
-    name: eureka-server02 #eureka的服务名称
+    name: eureka-server #eureka的服务名称
 eureka:
   client:
     register-with-eureka: true

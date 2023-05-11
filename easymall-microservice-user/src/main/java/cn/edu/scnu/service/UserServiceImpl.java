@@ -41,6 +41,7 @@ public class UserServiceImpl implements UserService {
         try {
             user.setUserPassword(MD5Util.md5(user.getUserPassword()));
             User userInfo = userMapper.doLogin(user);
+            System.out.println(userInfo);
             if (userInfo == null) {
                 return "";
             }
@@ -52,11 +53,6 @@ public class UserServiceImpl implements UserService {
                 jedis.lpop(loginCheckKey);
             }
             jedis.rpush(loginCheckKey, ticket);
-//            String oldTicket = jedis.get(loginCheckKey);
-//            if (oldTicket != null && !oldTicket.isEmpty()) {
-//                jedis.del(oldTicket);
-//            }
-//            jedis.set(loginCheckKey, ticket);
             log.info("LOGIN " + userInfo.getUserName() + "::" + ticket);
             jedis.setex(ticket, 30 * 60, userJson);
             return ticket;

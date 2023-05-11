@@ -1,56 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="@localhost" uuid="b17c55cc-d774-429c-8e98-24d4c0fa1a89">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="@116.205.130.21" uuid="4b1f483a-24fb-4a06-88f9-dcb621321650">
+    <data-source source="LOCAL" name="@116.205.130.21" uuid="6e33693c-2966-40fd-ae37-cbe3f192fac8">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://116.205.130.21:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="0@116.205.130.21" uuid="c0a54aed-cbf3-4f1f-b14e-3eceaab9105a">
+    <data-source source="LOCAL" name="0@116.205.130.21" uuid="aeaada4b-515c-4409-9228-5e1273d0d5a8">
       <driver-ref>redis</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>jdbc.RedisDriver</jdbc-driver>
       <jdbc-url>jdbc:redis://116.205.130.21:8000/0</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="0@116.205.130.21 [2]" uuid="0d04844d-315b-4812-b4e8-f7c5d07394bb">
+    <data-source source="LOCAL" name="0@116.205.130.21 [2]" uuid="a95ab4da-6f85-4ff0-b30c-0d19708c186d">
       <driver-ref>redis</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>jdbc.RedisDriver</jdbc-driver>
       <jdbc-url>jdbc:redis://116.205.130.21:8001/0</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="0@116.205.130.21 [3]" uuid="8882cf74-3d36-4fe4-be38-0b07ef0f1018">
-      <driver-ref>redis</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>jdbc.RedisDriver</jdbc-driver>
-      <jdbc-url>jdbc:redis://116.205.130.21:8002/0</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="0@116.205.130.21 [4]" uuid="aadc90bd-8728-44ea-97d6-e278516a4b1b">
+    <data-source source="LOCAL" name="0@116.205.130.21 [4]" uuid="7e2166f8-22e7-42a4-9244-fcfb2d369934">
       <driver-ref>redis</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>jdbc.RedisDriver</jdbc-driver>
       <jdbc-url>jdbc:redis://116.205.130.21:8003/0</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="0@116.205.130.21 [5]" uuid="889dd726-4e80-4220-9540-1a5f9880f11a">
+    <data-source source="LOCAL" name="0@116.205.130.21 [3]" uuid="112260a7-47dd-4ad4-a495-f3b536fbb7cd">
+      <driver-ref>redis</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>jdbc.RedisDriver</jdbc-driver>
+      <jdbc-url>jdbc:redis://116.205.130.21:8002/0</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="0@116.205.130.21 [5]" uuid="f941fb9c-3701-4fb2-9c81-4649fa4989d8">
       <driver-ref>redis</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>jdbc.RedisDriver</jdbc-driver>
       <jdbc-url>jdbc:redis://116.205.130.21:8004/0</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="0@116.205.130.21 [6]" uuid="38ac56fb-f474-491a-9d85-df685c7a8c3e">
+    <data-source source="LOCAL" name="0@116.205.130.21 [6]" uuid="749ea9ce-72bc-42d9-8dd4-4137952701c4">
       <driver-ref>redis</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>jdbc.RedisDriver</jdbc-driver>

@@ -15,20 +15,17 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     url: jdbc:mysql://116.205.130.21:3306/easydb?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
   redis:
-#    jedis:
-#      pool:
-#        max-active: 50
-#        max-wait: 1s
-#        max-idle: 8
-#        min-idle: 0
-    shard:
-      max-total: 200
-      max-idle: 10
-      min-idle: 2
+    cluster:
+      maxIdle: 8
+      maxTotal: 200
+      minIdle: 2
       nodes:
-        - 116.205.130.21:6379
-        - 116.205.130.21:6380
-        - 116.205.130.21:6381
+        - 116.205.130.21:8000
+        - 116.205.130.21:8001
+        - 116.205.130.21:8002
+        - 116.205.130.21:8003
+        - 116.205.130.21:8004
+        - 116.205.130.21:8005
 mybatis:
   typeAliasesPackage: com.easymall.pojo
   mapperLocations: classpath:mapper/*.xml

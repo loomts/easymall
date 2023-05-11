@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>ribbon</module>
         <module>eureka-server01</module>
         <module>eureka-server02</module>
         <module>easymall-gateway</module>
@@ -21,6 +22,7 @@
         <module>easymall-common-rediscluster</module>
         <module>easymall-config-server</module>
         <module>easymall-config-client</module>
+        <module>easymall-microservice-cart</module>
     </modules>
 
     <parent>

@@ -8,10 +8,9 @@ import redis.clients.jedis.*;
 
 import java.util.HashSet;
 import java.util.Set;
-@Component
 public class JedisTest {
     @Autowired
-    JedisCluster jedisCluster;
+    private JedisCluster cluster;
 
     @Test
     public void test01() {
@@ -32,8 +31,8 @@ public class JedisTest {
 
     @Test
     public void test02() {
-        jedisCluster.set("name", "dakta");
-        System.out.println(jedisCluster.get("name"));
+        cluster.set("name", "dakta");
+        System.out.println(cluster.get("name"));
     }
 
     @Test

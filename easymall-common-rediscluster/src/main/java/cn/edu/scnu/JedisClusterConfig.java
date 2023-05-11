@@ -23,6 +23,10 @@ public class JedisClusterConfig {
     //初始化JedisCluster的方法
     @Bean
     public JedisCluster initJedisCluster() {
+        System.out.println(nodes);
+        System.out.println(maxTotal);
+        System.out.println(maxIdle);
+        System.out.println(minIdle);
         //收集节点信息
         Set<HostAndPort> set = new HashSet<>();
         for (String node : nodes) {

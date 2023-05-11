@@ -1,5 +1,6 @@
 package cn.edu.scnu;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
@@ -9,14 +10,15 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class StarterProductCenter {
+@MapperScan("cn.edu.scnu.mapper")
+public class StarterCartCenter {
     public static void main(String[] args) {
-        SpringApplication.run(StarterProductCenter.class, args);
+        SpringApplication.run(StarterCartCenter.class, args);
     }
 
     @Bean
     @LoadBalanced
-    public RestTemplate restTemplate() {
+    public RestTemplate initCartRestTemplate() {
         return new RestTemplate();
     }
 }
