@@ -5,58 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2371f7dc-b7f5-4dfd-87d4-6e52bd5b202c" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/easymall-common-rediscluster/src/test/java/cn/edu/scnu/JedisClusterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-cart/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-cart/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-cart/src/main/java/cn/edu/scnu/StarterCartCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-cart/src/main/java/cn/edu/scnu/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-cart/src/main/java/cn/edu/scnu/mapper/CartMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-cart/src/main/java/cn/edu/scnu/service/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-cart/src/main/java/cn/edu/scnu/service/CartServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-cart/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-cart/src/main/resources/mapper/CartMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easymall-microservice-user/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0d04844d-315b-4812-b4e8-f7c5d07394bb.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/38ac56fb-f474-491a-9d85-df685c7a8c3e.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b1f483a-24fb-4a06-88f9-dcb621321650.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b1f483a-24fb-4a06-88f9-dcb621321650/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b1f483a-24fb-4a06-88f9-dcb621321650/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b1f483a-24fb-4a06-88f9-dcb621321650/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b1f483a-24fb-4a06-88f9-dcb621321650/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8882cf74-3d36-4fe4-be38-0b07ef0f1018.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/889dd726-4e80-4220-9540-1a5f9880f11a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aadc90bd-8728-44ea-97d6-e278516a4b1b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b17c55cc-d774-429c-8e98-24d4c0fa1a89.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b17c55cc-d774-429c-8e98-24d4c0fa1a89/storage_v2/_src_/schema/bookDB2022.pbZpbA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b17c55cc-d774-429c-8e98-24d4c0fa1a89/storage_v2/_src_/schema/flower.W3o0tA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b17c55cc-d774-429c-8e98-24d4c0fa1a89/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b17c55cc-d774-429c-8e98-24d4c0fa1a89/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c0a54aed-cbf3-4f1f-b14e-3eceaab9105a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-common-rediscluster/src/main/java/cn/edu/scnu/JedisClusterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-common-rediscluster/src/main/java/cn/edu/scnu/JedisClusterConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-common-rediscluster/src/test/java/cn/edu/scnu/JedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-common-rediscluster/src/test/java/cn/edu/scnu/JedisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-common-resources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-common-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easymall-microservice-order/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easymall-microservice-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easymall-microservice-order/src/main/java/cn/edu/scnu/StarterOrderCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easymall-microservice-order/src/main/java/cn/edu/scnu/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easymall-microservice-order/src/main/java/cn/edu/scnu/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easymall-microservice-order/src/main/java/cn/edu/scnu/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easymall-microservice-order/src/main/java/cn/edu/scnu/service/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easymall-microservice-order/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easymall-microservice-order/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/easymall-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/StarterProductCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/java/cn/edu/scnu/StarterProductCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/resources/application.yml.bk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-product/src/main/resources/bootstrap.yml.bk" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-product/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-user/src/main/java/cn/edu/scnu/redis/ShardJedisPoolConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-user/src/main/java/cn/edu/scnu/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-user/src/main/java/cn/edu/scnu/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymall-microservice-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easymall-microservice-user/src/main/resources/application.yml.bk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server01/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server01/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server01/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server01/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server02/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server02/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,6 +74,7 @@
     "RequestMappingsPanelWidth2": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -119,8 +83,8 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "E:/java/easymall/easymall-microservice-cart/src/main/resources",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "E:/java/easymall/easymall-microservice-order/src/main/java/cn/edu/scnu",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -145,11 +109,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java\easymall\easymall-microservice-order\src\main\java\cn\edu\scnu" />
       <recent name="E:\java\easymall\easymall-microservice-cart\src\main\resources" />
       <recent name="E:\java\easymall\easymall-microservice-cart\src\main\java\cn\edu\scnu" />
       <recent name="E:\java\easymall" />
       <recent name="E:\homework\easymall\easymall-microservice-pic\src\main\java\cn\edu\scnu" />
-      <recent name="E:\homework\easymall\easymall-microservice-product\src\main\java\cn\edu\scnu" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\java\easymall\easymall-microservice-cart\src\main\resources" />
@@ -172,7 +136,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.StarterCartCenter">
+  <component name="RunManager" selected="Spring Boot.StarterOrderCenter">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -210,9 +174,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StarterConfigServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="easymall-config-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.scnu.StarterConfigServer" />
+    <configuration name="StarterOrderCenter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="easymall-microservice-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.scnu.StarterOrderCenter" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.edu.scnu.*" />
@@ -250,7 +214,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.StarterConfigServer" />
+      <item itemvalue="Spring Boot.StarterOrderCenter" />
       <item itemvalue="Spring Boot.StartGateway" />
       <item itemvalue="Spring Boot.StarterCartCenter" />
       <item itemvalue="Spring Boot.StarterUserCenter" />
@@ -258,11 +222,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.StarterOrderCenter" />
+        <item itemvalue="Spring Boot.StartGateway" />
         <item itemvalue="Spring Boot.StarterCartCenter" />
         <item itemvalue="Spring Boot.StarterProductCenter" />
         <item itemvalue="Spring Boot.StarterUserCenter" />
-        <item itemvalue="Spring Boot.StartGateway" />
-        <item itemvalue="Spring Boot.StarterConfigServer" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +274,7 @@
       <workItem from="1683730177625" duration="7361000" />
       <workItem from="1683771655533" duration="3203000" />
       <workItem from="1683777993548" duration="4508000" />
-      <workItem from="1683793197892" duration="5254000" />
+      <workItem from="1683793197892" duration="7654000" />
     </task>
     <servers />
   </component>
