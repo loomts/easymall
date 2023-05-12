@@ -26,6 +26,10 @@ spring:
           uri: lb://order-service
           predicates:
             - Path=/order-service/**
+        - id: seckill
+          uri: lb://seckill-service
+          predicates:
+            - Path=/seckill-service/**
       discovery:
         locator:
           enabled: true

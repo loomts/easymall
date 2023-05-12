@@ -15,6 +15,7 @@
             <name qname="@" />
             <name qname="easydb" />
             <name qname="microtest" />
+            <name qname="seckill" />
           </node>
         </introspection-scope>
       </schema-mapping>

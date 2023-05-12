@@ -1,0 +1,45 @@
+server:
+  port: 10006
+spring:
+  application:
+    name: seckill-service
+  rabbitmq:
+    host: 116.205.130.21
+    port: 5672
+    username: loomt
+    password: 123456
+    virtual-host: /
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    initialSize: 5
+    maxActive: 50
+    maxIdle: 10
+    minIdle: 5
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://116.205.130.21:3306/seckill?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
+    username: loomt
+  redis:
+    cluster:
+      maxIdle: 8
+      maxTotal: 200
+      minIdle: 2
+      nodes:
+        - 116.205.130.21:8000
+        - 116.205.130.21:8001
+        - 116.205.130.21:8002
+        - 116.205.130.21:8003
+        - 116.205.130.21:8004
+        - 116.205.130.21:8005
+mybatis:
+  typeAliasesPackage: com.easymall.pojo
+  mapperLocations: classpath:mapper/*.xml
+  configuration:
+    mapUnderscoreToCamelCase: true
+    cacheEnabled: false
+eureka:
+  client:
+    service-url:
+      defaultZone:
+        - http://localhost:8761/eureka
+        - http://localhost:8762/eureka

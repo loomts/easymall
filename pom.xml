@@ -24,6 +24,7 @@
         <module>easymall-config-client</module>
         <module>easymall-microservice-cart</module>
         <module>easymall-microservice-order</module>
+        <module>easymall-microservice-seckill</module>
     </modules>
 
     <parent>

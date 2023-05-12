@@ -2,6 +2,9 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/easymall-microservice-order/src/main/resources/mapper/OrderMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/easymall-microservice-product/src/main/resources/mapper/ProductMapper.xml" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/easymall-microservice-seckill/src/main/resources/mapper/SecMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/easymall-microservice-seckill/src/main/resources/mapper/SucMapper.xml" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/easymall-microservice-user/src/main/resources/mapper/UserMapper.xml" dialect="MySQL" />
   </component>
 </project>
